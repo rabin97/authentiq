@@ -8,7 +8,7 @@ export default function Home() {
       </div>
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold mb-4">Hello</h1>
-        <p className="text-lg text-gray-600 dark:text-gray-400">Testing</p>
+        <p className="text-lg text-primary">Testing</p>
       </div>
     </main>
   );
