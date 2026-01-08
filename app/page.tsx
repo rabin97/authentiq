@@ -1,3 +1,15 @@
+import { ThemeToggle } from "@/components/ui/theme-toggle";
+
 export default function Home() {
-  return <main>Hello World</main>;
+  return (
+    <main className="min-h-screen p-8">
+      <div className="flex justify-end mb-8">
+        <ThemeToggle />
+      </div>
+      <div className="max-w-4xl mx-auto">
+        <h1 className="text-4xl font-bold mb-4">Hello</h1>
+        <p className="text-lg text-primary">Testing</p>
+      </div>
+    </main>
+  );
 }
