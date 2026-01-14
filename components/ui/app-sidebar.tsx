@@ -8,6 +8,7 @@ import {
   Command,
   Frame,
   GalleryVerticalEnd,
+  IdCard,
   Map,
   PieChart,
   Settings2,
@@ -135,6 +136,12 @@ const data = {
           url: "#",
         },
       ],
+    },
+    {
+      title: "Aadhaar Service",
+      url: "/aadhaar/upload",
+      icon: IdCard,
+      items: [],
     },
   ],
   projects: [
